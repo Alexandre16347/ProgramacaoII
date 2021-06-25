@@ -23,7 +23,7 @@ public class Aluno {
 	
 	//Construtores
 	
-	Aluno(String nome, double nota){
+	public Aluno(String nome, double nota){
 		setNome(nome);
 		setNota(nota);
 	}
