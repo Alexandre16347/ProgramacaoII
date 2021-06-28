@@ -70,7 +70,7 @@ public class Vetor {
 		Aluno[] vetor = getLista();
 		int aux = getCont();
 		
-		if (!listaVazia() && aux == posicao - 1) {
+		if (!listaVazia() && aux > posicao) {
 			
 			if (posicao == aux - 2) {
 				vetor[posicao] = vetor[posicao + 1];
