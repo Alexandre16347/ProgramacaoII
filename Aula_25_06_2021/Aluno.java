@@ -27,8 +27,12 @@ public class Aluno {
 		setNome(nome);
 		setNota(nota);
 	}
+	
+	public Aluno() {
+		
+	}
 	public void imprimeDados() {
-		System.out.println(getNome()+"\n"+getNota()+"\n");
+		System.out.println("Nome: "+getNome()+"\nNota: "+getNota()+"\n");
 	}
 	
 	
